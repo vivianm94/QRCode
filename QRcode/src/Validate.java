@@ -16,4 +16,5 @@ public class Validate {
            throw new InvalidInput(String.format("Mask pattern should be in range(8) (got %s)",maskingPattern));
        }
    }
+
 }

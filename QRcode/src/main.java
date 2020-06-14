@@ -4,7 +4,9 @@ public class Main {
 
         QRCode qw=new QRCode(1,QRCode.ECCLevel.L,10,4);
 
-        qw.CreateQRCode("12345AS");
+        qw.CreateQRCode("123456as");
+
+       // qw.IsValidISO("123456as");
 
     }
 }
